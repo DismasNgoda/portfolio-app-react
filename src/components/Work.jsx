@@ -6,7 +6,6 @@ const Work = () => {
 
     // projects file
     const project = data;
-    //setProject(data);
   
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
@@ -35,7 +34,7 @@ const Work = () => {
         {item.name}
       </span>
       <div className="pt-8 text-center ">
-        {/* eslint-disable-next-line */}
+        
         <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
@@ -44,7 +43,7 @@ const Work = () => {
             Code
           </button>
         </a>
-        {/* eslint-disable-next-line */}
+      
         <a href={item.live} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
